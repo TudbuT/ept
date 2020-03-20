@@ -4,8 +4,11 @@ This is an easy way to install and search apps.
 
 ## IMPORTANT: Keep ept up-to-date!
 You should run `ept install ept` from time to time!
+
+
 Also: Whenever anything doesn't work, try full-updating too: `ept install ept ; ept update_list`
-   When even that doesn't help, reinstall ept using `apt remove ept` (Yes, apt!) and then reinstall it using the .deb file!
+
+When even that doesn't help, reinstall ept using `apt remove ept` (Yes, apt!) and then reinstall it using the .deb file!
 
 ### Suggestions for search engine
 - How to submit:
