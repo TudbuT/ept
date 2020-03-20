@@ -13,4 +13,4 @@ python2::python2::Python 2::One of the most popular coding languages - The most 
 python3::python3::Python 3::One of the most popular coding languages - The most popular scripting language::py::__d__
 wget::wget::Wget::Download online files::stream contents::__d__
 firefox::firefox::Firefox Web Browser::A useful browser which protects your privacy:: ::__d__
-browsh::browsh::brow.sh::A firefox emulator for graphical use in terminals via ssh:: ::__d__
+browsh::browsh::brow.sh::A firefox emulator for graphical use in terminals via ssh::web browser tty pixels::__d__
