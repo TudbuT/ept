@@ -10,6 +10,7 @@ This is an easy way to install and search apps.
 
 [Search engine suggestions](#suggestions-for-search-engine)
 
+---
 
 ## Installation
 - Download the .deb package from Releases/v1.0-1
