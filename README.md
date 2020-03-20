@@ -13,7 +13,7 @@ This is an easy way to install and search apps.
 ---
 
 ## Installation
-- Download the .deb package from Releases/v1.0-1
+- Download the .deb package from the releases
 - Install it
 - Run `ept install ept` (for updating and setting up)
 
