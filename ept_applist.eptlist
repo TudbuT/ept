@@ -5,7 +5,7 @@ nodejs::node::NodeJS::A coding language::JavaScript Script::__d__
 npm::npm::Node Package Manager::An addon manager for NodeJS:: ::__d__
 openjdk-8-jdk::java javac jar::Java (OpenJDK) 8::The most popular coding language - V8::compiled coding java8::__d__
 openjdk-9-jdk::java javac jar jshell::Java (OpenJDK) 8::The most popular coding language - V9::compiled coding java9::__d__
-ept::ept::Easy Package Tool::The easy tool for application management::ept tudbut list::__ept:ept__
+ept::ept::Easy Package Tool::The easy tool for application management::ept tudbut list search::__ept:ept__
 curl::curl::cURL::Stream any online resource to your shell::get http https::__d__
 mpv::mpv::MPv::Play music in your shell:: ::__d__
 python::python::Python::One of the most popular coding languages - The most popular scripting language::py::__d__
