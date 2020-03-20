@@ -8,3 +8,4 @@ openjdk-9-jdk::java javac jar jshell::Java (OpenJDK) 8::The most popular coding 
 ept::ept::Easy Package Tool::The easy tool for application management::ept tudbut list::__ept:ept__
 curl::curl::cURL::Stream any online resource to your shell::get http https::__d__
 mpv::mpv::MPv::Play music in your shell:: ::__d__
+python::python::Python::One of the most popular coding languages - The most popular scripting language::py::__d__
