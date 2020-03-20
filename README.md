@@ -3,8 +3,11 @@
 This is an easy way to install and search apps.
 
 [First run]()
+
 [Updating](#important-keep-ept-up-to-date)
-[Suggestions](#suggestions-for-search-engine)
+
+[Search engine suggestions](#suggestions-for-search-engine)
+
 
 ## IMPORTANT: Keep ept up-to-date!
 You should run `ept install ept` from time to time!
