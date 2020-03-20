@@ -2,11 +2,19 @@
 
 This is an easy way to install and search apps.
 
-[First run]()
+---
+
+[Installation](#installation)
 
 [Updating](#important-keep-ept-up-to-date)
 
 [Search engine suggestions](#suggestions-for-search-engine)
+
+
+## Installation
+- Download the .deb package from Releases/v1.0-1
+- Install it
+- Run `ept install ept` (for updating and setting up)
 
 
 ## IMPORTANT: Keep ept up-to-date!
