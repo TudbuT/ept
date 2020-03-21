@@ -97,7 +97,7 @@ def install(application)
     run "yes | (#{es[6]})"
   else
     puts "Using bridge '#{use}'"
-    run "yes | ((#{use} install #{application} || #{use} install -g #{application}) && echo Done!)"
+    run "yes | ((#{use} install -g #{application} || #{use} install #{application}) && echo Done!)"
   end
 end
 
