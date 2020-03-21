@@ -96,7 +96,7 @@ def install(application)
   if use == '__ept:ept__'
     run "(echo 'ruby #{__FILE__} $@'>/bin/ept) && chmod a+x /bin/ept && cd #{__dir__} && rm -rf ept.rb.old && mv ept.rb ept.rb.old && wget https://ept.glitch.me/ept.rb && chmod a+rw ept.rb"
   elsif use == '__c__'
-    run es[6]
+    run "yes | (#{es[6]})"
   else
     puts "Using bridge '#{use}'"
     run "yes | #{use} install #{application}"
@@ -117,7 +117,7 @@ def uninstall(application)
   if use == '__ept:ept__'
     run "(echo '#ruby #{__FILE__} $@'>/bin/ept) && chmod a+x /bin/ept && cd #{__dir__} && rm -rf ept.rb.old && mv ept.rb ept.rb.old"
   elsif use == '__c__'
-    run es[7]
+    run "yes | (#{es[7]})"
   else
     puts "Using bridge '#{use}'"
     run "yes | #{use} remove #{application}"
