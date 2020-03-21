@@ -106,14 +106,22 @@ end
 def uninstall(application)
   puts 'Uninstalling...'
   use = get_bridge[0]
+  es = nil
   list = get_list
   list.each do |entry|
-    if (entry.downcase.split '::')[0]
-      es = (entry.split '::')
-      use = es[5]
+    if (entry.downcase.split '::')[0] == application
+      es = entry.split '::'
+      use = es[5] == '__d__' ? use : es[5]
     end
   end
-  run "yes | #{use} remove #{application}"
+  if use == '__ept:ept__'
+    run "(echo '#ruby #{__FILE__} $@'>/bin/ept) && chmod a+x /bin/ept && cd #{__dir__} && rm -rf ept.rb.old && mv ept.rb ept.rb.old"
+  elsif use == '__c__'
+    run es[6]
+  else
+    puts "Using bridge '#{use}'"
+    run "yes | #{use} remove #{application}"
+  end
 end
 
 def update
