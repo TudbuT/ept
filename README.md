@@ -15,7 +15,7 @@ This is an easy way to install and search apps.
 ## Installation
 - Download the .deb package from [here](https://github.com/TudbuT/ept/releases/latest)
 - Install it
-- Run `ept install ept` (for updating and setting up)
+- Run `sudo ept install ept` (for updating and setting up)
 
 
 ## IMPORTANT: Keep ept up-to-date!
