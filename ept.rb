@@ -118,7 +118,7 @@ def uninstall(application)
     run "yes | (#{es[7]})"
   else
     puts "Using bridge '#{use}'"
-    run "yes | #{use} remove #{application}"
+    run "yes | (#{use} remove #{application} || #{use} uninstall #{application})"
   end
 end
 
