@@ -35,7 +35,7 @@ end
 def get_list
   if File.exists? '/var/ept_applist.eptlist'
     file = File.new '/var/ept_applist.eptlist', 'r+'
-    file.readlines.join("\n").chomp("\n").chomp("\n").split("\n\n")
+    file.readlines.join(';;').split("\n").join('')
   else
     update_list
     get_list
@@ -54,7 +54,7 @@ end
 def get_bridge
   if File.exists? '/var/ept_default_bridge.eptcfg'
     file = File.new '/var/ept_default_bridge.eptcfg', 'r+'
-    file.readlines.join("\n").chomp("\n").chomp("\n").split("\n\n")
+    file.readlines.join(';;').split("\n").join('')
   else
     update_bridge
     get_bridge
