@@ -35,3 +35,4 @@ When even that doesn't help, reinstall ept using `apt remove ept` (Yes, apt!) an
     - `[newline]< application ID (for 'ept install <ID>') >::< commands, the application adds>::< full name of the application >::< description of the application >::< tags (tag1 tag2 tag3) >::< installation type (__d__ for the default, __c__ for custom or {package manager} (will run '{package manager} install {app}') >::< [only if installation type is __c__[the installation command(s)]] >`
     - NO newline at the end!!!
   - Everything you want to submit must be tested - I don't want to get submissions that don't work, and if I have to test everything, even tho it doesn't work, that whould be pretty hard! So, please(!), submit working things!
+    - How to test: Copy your new list to /var (file name must be ept_applist.eptlist!).
