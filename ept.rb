@@ -117,7 +117,7 @@ def uninstall(application)
   if use == '__ept:ept__'
     run "(echo '#ruby #{__FILE__} $@'>/bin/ept) && chmod a+x /bin/ept && cd #{__dir__} && rm -rf ept.rb.old && mv ept.rb ept.rb.old"
   elsif use == '__c__'
-    run es[6]
+    run es[7]
   else
     puts "Using bridge '#{use}'"
     run "yes | #{use} remove #{application}"
