@@ -12,6 +12,10 @@ Usage: ept [action] [<*params>]
       Update/Upgrade all applications
     update_list
       Update the ept_applist
+    update_bridge
+      Update the default bridge (Will 
+        download the most recommended and 
+        replace your old setting)
     get_list
       Print the ept_applist
     search
