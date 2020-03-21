@@ -14,3 +14,4 @@ python3::python3::Python 3::One of the most popular coding languages - The most 
 wget::wget::Wget::Download online files::stream contents::__d__
 firefox::firefox::Firefox Web Browser::A useful browser which protects your privacy:: ::__d__
 browsh::browsh::brow.sh::A firefox emulator for graphical use in terminals via ssh::web browser tty pixels::__c__::wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_amd64.deb && apt-get install ./browsh_1.6.4_linux_amd64.deb ; rm -rf browsh_1.6.4_linux_amd64.deb::apt-get remove browsh
+discord::discord::Discord::Discord is the easiest way to communicate over voice, video, and text, whether you’re part of a school club, a nightly gaming group, a worldwide art community, or just a handful of friends that want to hang out.:: ::__c__::curl https://discordapp.com/api/download?platform=linux&format=deb>discord.deb && apt-get install ./discord.deb && rm -rf discord.deb::apt-get remove discord
