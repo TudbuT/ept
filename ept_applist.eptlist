@@ -18,4 +18,5 @@ discord::discord::Discord::Discord is the easiest way to communicate over voice,
 htop::htop::htop::Htop is an improved command-line task manager. It’s meant to be a complete rework of Top, which is the standard cli task manager for Linux.:: ::__d__
 nano::nano::nano::Vi and Emacs get all the attention on Linux, but Nano is the king of basic cli text editors. It’s incredibly efficient and easy to use when you’re using a terminal and need to edit a script, text file or program in a flash.:: ::__d__
 lynx::lynx::LynX::Lynx is a web browsing application built for the terminal. In the days of modern browsers such as Google Chrome and Mozilla Firefox, it’s less useful but still worth installing in those rare cases when you need a web browser in the command-line (for whatever reason).:: ::__d__
-footballcli::football::football-cli::Command line interface for Hackers who love football ⚽:: ::npm
+footballcli::football::football-cli::Command line interface for Hackers who love football ⚽ - Get live scores, fixtures, standings of almost every football competition/league.:: ::npm
+newsboat::newsboat::NewsBoat::An extendable RSS feed reader for text terminals.::actively maintained::snap
