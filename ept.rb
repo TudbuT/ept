@@ -25,10 +25,7 @@ end
 
 def update_list
   puts '      Please wait... Downloading the lists...'
-  pipe = IO.popen 'cd /var && rm -rf ept_applist.eptlist && wget https://ept.glitch.me/ept_applist.eptlist'
-  while (s = pipe.gets) != nil
-    puts s
-  end
+  run 'cd /var && rm -rf ept_applist.eptlist && wget https://ept.glitch.me/ept_applist.eptlist'
   puts '      Done!'
 end
 
@@ -43,11 +40,8 @@ def get_list
 end
 
 def update_bridge
-  puts '      Please wait... Downloading the default config...'
-  pipe = IO.popen 'cd /var && rm -rf ept_default_bridge.eptcfg && wget https://ept.glitch.me/ept_default_bridge.eptcfg'
-  while (s = pipe.gets) != nil
-    puts s
-  end
+  puts '      Please wait... Downloading the default bridge config...'
+  run 'cd /var && rm -rf ept_default_bridge.eptcfg && wget https://ept.glitch.me/ept_default_bridge.eptcfg'
   puts '      Done!'
 end
 
@@ -157,6 +151,8 @@ when 'update'
   puts update
 when 'update_list'
   puts update_list
+when 'update_bridge'
+  puts update_bridge
 when 'get_list'
   puts get_list.join "\n"
 when 'set_bridge'
