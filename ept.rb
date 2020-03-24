@@ -127,7 +127,7 @@ def update
   use = get_bridge[0]
   update_list
   run "(echo 'ruby #{__FILE__} $@'>/bin/ept) && chmod a+x /bin/ept && cd #{__dir__} && rm -rf ept.rb.old && mv ept.rb ept.rb.old && wget https://ept.glitch.me/ept.rb && chmod a+rw ept.rb"
-  run "yes | (rm -rf /var/lib/apt/lists ; apt-get update ; (#{use} update && #{use} upgrade && echo Done!)))"
+  run "yes | (rm -rf /var/lib/apt/lists ; apt-get update ; (#{use} update && #{use} upgrade && echo Done!))"
 end
 
 def search(str)
