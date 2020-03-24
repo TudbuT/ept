@@ -31,3 +31,4 @@ bottyclient::bcl::BottyClient::A slim Discord client with many cool features inc
 minecraft::minecraft-launcher::Minecraft Launcher::The original Minecraft launcher::tudbut mojang::__c__::curl https://launcher.mojang.com/download/Minecraft.deb>minecraft.deb && apt-get install ./minecraft.deb ; rm -rf minecraft.deb::apt-get remove minecraft-launcher
 libreoffice::libreoffice libreoffice-[...]::LibreOffice::The free office package - LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity. - "The best office suite gets even better" – ZDNet::tudbut::__d__
 pavucontrol::pavucontrol::PulseAudio Volume Control::The (on Ubuntu normally pre-installed) audio GUI and library!::pulseaudio pulse audio tudbut::__d__
+chromium-browser::chromium-browser::Chromium:: ::tudbut chrome chromium::__d__
