@@ -32,3 +32,4 @@ minecraft::minecraft-launcher::Minecraft Launcher::The original Minecraft launch
 libreoffice::libreoffice libreoffice-[...]::LibreOffice::The free office package - LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity. - "The best office suite gets even better" – ZDNet::tudbut::__d__
 pavucontrol::pavucontrol::PulseAudio Volume Control::The (on Ubuntu normally pre-installed) audio GUI and library!::pulseaudio pulse audio tudbut::__d__
 chromium-browser::chromium-browser::Chromium:: ::tudbut chrome chromium::__d__
+hardttp::hr::HardTTP::Send HTTP requests to any web address::npm tudbut http post get::npm
