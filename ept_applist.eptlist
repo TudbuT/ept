@@ -33,3 +33,4 @@ libreoffice::libreoffice libreoffice-[...]::LibreOffice::The free office package
 pavucontrol::pavucontrol::PulseAudio Volume Control::The (on Ubuntu normally pre-installed) audio GUI and library!::pulseaudio pulse audio tudbut::__d__
 chromium-browser::chromium-browser::Chromium:: ::tudbut chrome chromium::__d__
 hardttp::hr::HardTTP::Send HTTP requests to any web address::npm tudbut http post get::npm
+synchronify:: ::Synchronify::Convert async functions in node js to sync functions::deasync tudbut::npm
